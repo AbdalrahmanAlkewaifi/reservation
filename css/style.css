@@ -1,0 +1,67 @@
+/* Remove all the default margins */
+* {
+  /* margin: 0px; */
+  font-family: raleway;
+}
+/* the nav bar display is flex view */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 6rem);
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2f;
+  height: 50px;
+  align-items: center;
+  padding: 0 3rem;
+}
+/* make basket white */
+.shopping_basket {
+  color: #bb854b;
+  margin-left: auto;
+}
+/* make the line between navbar item color gray */
+.lineBetween {
+  color: rgba(255, 255, 255, 0.297);
+}
+/* make the items in navbar as flex to be in one line */
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+/* remove underline of the items and make them white */
+.navbar a {
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+}
+/* when we hover on menus, change color */
+.navbar a:hover,
+.basket:hover {
+  color: #e08b2f;
+}
+/* title text "TAMEES" */
+header .title_text {
+  color: #e08b2f;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* The hamberger menu for mobile view */
+.hambergerMenu {
+  display: none;
+  color: #fff;
+}
+.drop_menu {
+  display: none;
+}
+.home_image {
+  width: 100%;
+}
+#main2 {
+  position: absolute;
+  top: 50px;
+  right: 3px;
+  z-index: -1;
+}

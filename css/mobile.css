@@ -1,0 +1,45 @@
+/* responsive navbar for mobile resolution (under 700px) */
+.hambergerMenu {
+  display: block;
+  color: #fff;
+  background-color: #222327;
+  border-radius: 25%;
+}
+.navbar_items {
+  display: none;
+}
+header .title_text {
+  margin-left: auto;
+}
+.hambergerMenu:hover {
+  color: #e08b2f;
+}
+/* #menu_bar .drop_menu {
+    display: block;
+  } */
+.active {
+  display: block;
+}
+.drop_menu {
+  position: absolute;
+  top: 34px;
+}
+.change a {
+  text-decoration: none;
+  color: #fff;
+}
+.change li {
+  list-style-type: none;
+  font-size: 2rem;
+  background-color: #222327;
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  padding: 5px;
+  list-style-type: none;
+  border: 1px solid rgb(55, 55, 55);
+}
+.change li:hover,
+.change li:focus {
+  background: #e08b2f;
+}
